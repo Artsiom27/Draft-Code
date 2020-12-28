@@ -1,0 +1,28 @@
+[
+  {
+    "firstName": "Eugen",
+    "lastName": "Borisik",
+    "sex": "MALE",
+    "age": 28,
+    "results": {
+      "english": 8,
+      "maths": 10
+    }
+  },
+  {
+    "firstName": "Viktoria",
+    "lastName": "Mikulich",
+    "sex": "FEMALE",
+    "age": 26
+  },
+  {
+    "firstName": "Artem",
+    "lastName": "Tsvikevich",
+    "sex": "MALE",
+    "age": 27,
+    "results": {
+      "russian": 9,
+      "english": 9
+    }
+  }
+]
