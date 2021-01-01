@@ -1,7 +1,5 @@
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Student {
@@ -9,18 +7,11 @@ public class Student {
     private String lastName;
     private String sex;
     private Integer age;
-    private Results results;
-    private List<Student> student;
+    private Map<String, Byte> results;
 
-
-    public List<Student> getStudent() {
-        return student;
+    public void setResults(Map<String, Byte> results) {
+        this.results = results;
     }
-
-    public void setStudent(List<Student> student) {
-        this.student = student;
-    }
-
 
     public String getFirstName() {
         return firstName;
@@ -54,23 +45,10 @@ public class Student {
         this.age = age;
     }
 
-    public Results getResults() {
-        return results;
-    }
-
-    public void setResults(Results results) {
-        this.results = results;
-    }
-
-
-    public void setResults(String name, Object value) {
-    }
 
     public String toString() {
         return new ToStringBuilder(this).append("firstName", firstName).append("lastName", lastName).append("sex", sex)
                 .append("age", age).append("results", results).toString();
 
     }
-
-
 }
